@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
         borderWidth: .5,
         borderColor: modules.WHITE,
         ..._styles.center,
-        backgroundColor: modules.LINK,
+        backgroundColor: modules.PRIMARY,
     },
 
     secondary: {

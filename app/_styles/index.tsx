@@ -316,7 +316,7 @@ const _styles = StyleSheet.create({
     height: 8,
     borderRadius: 99,
     marginHorizontal: 2,
-    backgroundColor: modules.LINK
+    backgroundColor: modules.PRIMARY
   },
   section: {
     boxShadow: '0 15px 40px rgba(207,204,220,0.65)',

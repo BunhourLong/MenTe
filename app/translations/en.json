@@ -1,8 +1,15 @@
 {
-  "welcomeMessage": "Welcome to MenTe, your go to cosmetic verifier",
   "getStarted": "Get Started",
   "profile": "Profile",
   "language": "Language",
   "languageName": "English",
-  "chooseLanguage": "Choose Language"
+  "chooseLanguage": "Choose Language",
+  "productsToVerify": "Products you can verify",
+  "mottoLead": "Beauty you can",
+  "mottoAccent": "trust.",
+  "mottoSub": "Check that every product is genuine before it touches your skin.",
+  "currency": "Currency",
+  "chooseCurrency": "Choose Currency",
+  "currencyUSD": "US Dollar",
+  "currencyKHR": "Khmer Riel"
 }

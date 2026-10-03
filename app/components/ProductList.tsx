@@ -5,7 +5,7 @@ import _styles from '@styles'
 import modules from 'modules'
 import { FontGSansBold, FontGSansSemiBold, fontGSans } from '@customs/customFont'
 import { Product } from 'dummy'
-import { formatKRW } from 'services/format.service'
+import Price from 'components/Price'
 import PressableScale from 'components/PressableScale'
 import ProductThumb from 'components/ProductThumb'
 import { APP_TAB_HEIGHT } from 'routes/TabBar'
@@ -13,7 +13,6 @@ import { APP_TAB_HEIGHT } from 'routes/TabBar'
 interface Props {
     products: Product[]
     onPress: (product: Product) => void
-    ListHeaderComponent?: React.ReactElement
 }
 
 function ProductList(props: Props): React.JSX.Element {
@@ -21,7 +20,6 @@ function ProductList(props: Props): React.JSX.Element {
         <FlatList
             data={props.products}
             keyExtractor={item => item.id}
-            ListHeaderComponent={props.ListHeaderComponent}
             contentContainerStyle={styles.content}
             ItemSeparatorComponent={() => <View style={styles.separator} />}
             renderItem={({ item }) => (
@@ -30,7 +28,7 @@ function ProductList(props: Props): React.JSX.Element {
                     <View style={styles.info}>
                         <Text style={styles.brand} numberOfLines={1}>{item.brand}</Text>
                         <Text style={styles.name} numberOfLines={2}>{item.name}</Text>
-                        <Text style={styles.price}>{formatKRW(item.price)}</Text>
+                        <Price style={styles.price} price={item.price} />
                     </View>
                     <Ionicons name="chevron-forward" size={18} color={modules.APPLE_CHEVRON} />
                 </PressableScale>
@@ -50,7 +48,6 @@ const styles = StyleSheet.create({
         gap: modules.BODY_HORIZONTAL_12,
         paddingVertical: modules.BODY_HORIZONTAL_12,
         paddingHorizontal: modules.BODY_HORIZONTAL_18,
-        backgroundColor: modules.WHITE,
     },
     info: {
         flex: 1,
@@ -69,7 +66,7 @@ const styles = StyleSheet.create({
     price: {
         ...fontGSans,
         fontSize: modules.FONT_H7,
-        color: modules.LINK,
+        color: modules.PRIMARY,
         marginTop: modules.SPACE,
     },
     separator: {

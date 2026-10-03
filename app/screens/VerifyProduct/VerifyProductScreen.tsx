@@ -9,6 +9,7 @@ import { Product } from 'dummy'
 import BlurAndView from 'components/BlurAndView'
 import PressableScale from 'components/PressableScale'
 import ProductThumb from 'components/ProductThumb'
+import AppBackground from 'components/AppBackground'
 import { Verdict } from './verdict'
 
 interface Props {
@@ -23,8 +24,8 @@ interface Props {
 
 const VERDICTS = {
     pending: { icon: 'shield-outline', color: modules.TEXT_NOTE, bg: modules.SEARCH_BG, title: 'Check each sign', sub: 'Answer every question to verify this product.' },
-    authentic: { icon: 'shield-checkmark', color: modules.NEW_GREEN, bg: 'rgba(52,199,89,0.12)', title: 'Verified authentic', sub: 'Every sign matches the genuine product.' },
-    fake: { icon: 'warning', color: modules.STATISTIC_RED, bg: 'rgba(254,59,47,0.10)', title: 'Not authentic', sub: 'At least one sign does not match. This product may be counterfeit.' },
+    authentic: { icon: 'shield-checkmark', color: modules.SUCCESS, bg: modules.SUCCESS_BG, title: 'Verified authentic', sub: 'Every sign matches the genuine product.' },
+    fake: { icon: 'alert-circle', color: modules.CAUTION, bg: modules.CAUTION_BG, title: 'Not authentic', sub: 'At least one sign does not match. This product may be counterfeit.' },
 } as const
 
 const VerifyProductScreen = (props: Props): React.JSX.Element => {
@@ -34,6 +35,7 @@ const VerifyProductScreen = (props: Props): React.JSX.Element => {
 
     return (
         <View style={_styles.containerWhite}>
+            <AppBackground />
             <ScrollView contentContainerStyle={[styles.content, { paddingTop: safeTop + 42 + modules.BODY_HORIZONTAL_12 }]}>
                 <View style={styles.productRow}>
                     <ProductThumb product={product} size={64} />
@@ -56,8 +58,8 @@ const VerifyProductScreen = (props: Props): React.JSX.Element => {
                     <View key={check} style={styles.check}>
                         <Text style={styles.checkText}>{check}</Text>
                         <View style={styles.answers}>
-                            <AnswerButton label="Yes" icon="checkmark" color={modules.NEW_GREEN} selected={answers[index] === true} onPress={() => props.onAnswer(index, true)} />
-                            <AnswerButton label="No" icon="close" color={modules.STATISTIC_RED} selected={answers[index] === false} onPress={() => props.onAnswer(index, false)} />
+                            <AnswerButton label="Yes" icon="checkmark" color={modules.SUCCESS} selected={answers[index] === true} onPress={() => props.onAnswer(index, true)} />
+                            <AnswerButton label="No" icon="close" color={modules.CAUTION} selected={answers[index] === false} onPress={() => props.onAnswer(index, false)} />
                         </View>
                     </View>
                 ))}
@@ -176,7 +178,7 @@ const styles = StyleSheet.create({
     resetText: {
         ...FontGSansSemiBold,
         fontSize: modules.FONT_H6,
-        color: modules.LINK,
+        color: modules.PRIMARY,
     },
     backButton: {
         position: 'absolute',

@@ -6,9 +6,13 @@
     "nameKo": "어드밴스드 스네일 96 뮤신 파워 에센스",
     "category": "Essence",
     "volume": "100ml",
-    "price": 25000,
+    "price": {
+      "min": 14,
+      "max": 22
+    },
     "rating": 4.7,
     "barcode": "8809416470054",
+    "image": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/james_800x1067_1_1_4e9750cc-2cd6-4817-ace5-be2305a85806.jpg?v=1763111577&width=600",
     "colors": [
       "#F6D5C4",
       "#E8A98C"
@@ -34,9 +38,13 @@
     "nameKo": "워터 슬리핑 마스크",
     "category": "Mask",
     "volume": "70ml",
-    "price": 32000,
+    "price": {
+      "min": 20,
+      "max": 32
+    },
     "rating": 4.6,
     "barcode": "8806180000001",
+    "image": "https://cdn.shopify.com/s/files/1/0255/0189/2660/files/WSM_AD_PDP_2.jpg?v=1754046790&width=600",
     "colors": [
       "#BFD9FF",
       "#6E9BFF"
@@ -62,9 +70,13 @@
     "nameKo": "그린티 씨드 히알루론산 세럼",
     "category": "Serum",
     "volume": "80ml",
-    "price": 33000,
+    "price": {
+      "min": 18,
+      "max": 28
+    },
     "rating": 4.5,
     "barcode": "8806180000002",
+    "image": "https://cdn.shopify.com/s/files/1/0089/3367/1012/files/IF_BottleRePlay_Packshot.jpg?v=1775044946&width=600",
     "colors": [
       "#CFEFC8",
       "#5DBB63"
@@ -90,9 +102,13 @@
     "nameKo": "맑은쌀 선크림",
     "category": "Sunscreen",
     "volume": "50ml",
-    "price": 18000,
+    "price": {
+      "min": 10,
+      "max": 18
+    },
     "rating": 4.8,
     "barcode": "8809738316061",
+    "image": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/02_0330___v2.jpg?v=1774857974&width=600",
     "colors": [
       "#FFF1C9",
       "#F2C94C"
@@ -118,9 +134,13 @@
     "nameKo": "어성초 77 수딩 토너",
     "category": "Toner",
     "volume": "250ml",
-    "price": 28000,
+    "price": {
+      "min": 15,
+      "max": 25
+    },
     "rating": 4.6,
     "barcode": "8809640730047",
+    "image": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-heartleaf-77-soothing-toner-1239193744.jpg?v=1779181932&width=600",
     "colors": [
       "#DDF3E4",
       "#7CC596"
@@ -146,9 +166,13 @@
     "nameKo": "윤조에센스",
     "category": "Serum",
     "volume": "90ml",
-    "price": 135000,
+    "price": {
+      "min": 70,
+      "max": 100
+    },
     "rating": 4.7,
     "barcode": "8806180000003",
+    "image": "https://cdn.shopify.com/s/files/1/0249/8399/4413/files/2023FCAS6thGeneration-60ml-1_270320590_Brand.com_1080px1_1ratio.jpg?v=1732034287&width=600",
     "colors": [
       "#F5E3C3",
       "#C99A4B"
@@ -174,9 +198,13 @@
     "nameKo": "쥬시 래스팅 틴트",
     "category": "Lip",
     "volume": "5.5g",
-    "price": 13000,
+    "price": {
+      "min": 7,
+      "max": 12
+    },
     "rating": 4.5,
     "barcode": "8809625240000",
+    "image": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/07_JUJUBE_1.jpg?v=1775131605&width=600",
     "colors": [
       "#FFC2C7",
       "#E5566B"
@@ -202,9 +230,13 @@
     "nameKo": "마다가스카르 센텔라 앰플",
     "category": "Ampoule",
     "volume": "100ml",
-    "price": 23000,
+    "price": {
+      "min": 12,
+      "max": 20
+    },
     "rating": 4.6,
     "barcode": "8809576261103",
+    "image": "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-ampoule-serum-30ml-centella-ampoule-40725717254390.png?v=1717577033&width=600",
     "colors": [
       "#E7F0D6",
       "#9DBF6B"
@@ -227,9 +259,13 @@
     "nameKo": "다이브인 저분자 히알루론산 세럼",
     "category": "Serum",
     "volume": "50ml",
-    "price": 22000,
+    "price": {
+      "min": 13,
+      "max": 22
+    },
     "rating": 4.7,
     "barcode": "8809740520000",
+    "image": "https://cdn.shopify.com/s/files/1/0920/1644/3758/files/DIVEINSerum1_631ac0e3-a77b-422a-a806-bf34477cac19.jpg?v=1753346213&width=600",
     "colors": [
       "#D3EEFA",
       "#4FB3E0"
@@ -255,9 +291,13 @@
     "nameKo": "1025 독도 클렌저",
     "category": "Cleanser",
     "volume": "150ml",
-    "price": 14000,
+    "price": {
+      "min": 9,
+      "max": 15
+    },
     "rating": 4.5,
     "barcode": "8809582740000",
+    "image": "https://cdn.shopify.com/s/files/1/0651/7656/8022/files/Dokdo_cleanser_2025.png?v=1772851225&width=600",
     "colors": [
       "#D9E8F5",
       "#5B8DB8"

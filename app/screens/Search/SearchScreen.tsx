@@ -7,6 +7,7 @@ import modules from 'modules'
 import { FontGSansBold, fontGSans } from '@customs/customFont'
 import { Product } from 'dummy'
 import ProductList from 'components/ProductList'
+import AppBackground from 'components/AppBackground'
 
 interface Props {
     query: string
@@ -18,6 +19,7 @@ interface Props {
 const SearchScreen = (props: Props): React.JSX.Element => {
     return (
         <SafeAreaView edges={['top']} style={_styles.containerWhite}>
+            <AppBackground />
             <Text style={styles.title}>Search</Text>
             <View style={styles.searchBox}>
                 <Ionicons name="search" size={18} color={modules.TEXT_NOTE} />
@@ -61,7 +63,7 @@ const styles = StyleSheet.create({
         marginHorizontal: modules.BODY_HORIZONTAL_18,
         paddingHorizontal: modules.BODY_HORIZONTAL_12,
         borderRadius: modules.CARD_RADIUS,
-        backgroundColor: modules.SEARCH_BG,
+        backgroundColor: modules.WHITE,
     },
     input: {
         ...fontGSans,

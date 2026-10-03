@@ -5,10 +5,21 @@ const colors = {
   BRAND_TEAL: '#14B8A6',
   BRAND_DEEP: '#0B4F4A',
   BRAND_LEAF: '#34D399',
+  // Theme: calm and trustworthy, nothing alarming. Deep teal sits between BRAND_TEAL and BRAND_DEEP.
+  // All pass WCAG AA (>= 4.5:1) as text on white and as the fill under white text.
+  PRIMARY: '#0F766E',
+  PRIMARY_BG: 'rgba(15,118,110,0.10)',
+  SUCCESS: '#2E7D4F',
+  SUCCESS_BG: 'rgba(46,125,79,0.10)',
+  // A "not authentic" result: muted clay, clear but not an alarm.
+  CAUTION: '#A4522F',
+  CAUTION_BG: 'rgba(164,82,47,0.10)',
+  // Screen background (components/AppBackground): periwinkle mist -> pearl -> blush, top-left to bottom-right.
+  // Deliberately not teal, so PRIMARY still stands out against it.
+  APP_GRADIENT: ['#EAEEFF', '#F7F5FB', '#FDEDE6'],
   LINK: '#1a73e8',
   // iOS systemBlue in dark mode, for tint over dark glass where LINK is too deep to read.
   LINK_DARK: '#0A84FF',
-  PRIMARY: '#1a73e8',
   PRIMARY_TAB: '#8e96a3',
   CHAT_RECEIVER_GRAY: "#707579",
   BACKGROUND_CHAT: "#F1F1F1",

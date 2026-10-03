@@ -21,7 +21,7 @@ function TabBar({ state, descriptors, navigation }: BottomTabBarProps): React.JS
         {state.routes.map((route, index) => {
           const { options } = descriptors[route.key]
           const isFocused = state.index === index
-          const color = isFocused ? modules.LINK : modules.TEXT_NOTE
+          const color = isFocused ? modules.PRIMARY : modules.TEXT_NOTE
 
           const onPress = () => {
             const event = navigation.emit({ type: 'tabPress', target: route.key, canPreventDefault: true })

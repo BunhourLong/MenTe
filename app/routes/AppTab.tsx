@@ -49,7 +49,7 @@ function IOS26NativeTabs(): React.JSX.Element {
         headerShown: false,
         tabBarMinimizeBehavior: 'none',
         tabBarLabelStyle: fontGSans,
-        tabBarActiveTintColor: modules.BLACK,
+        tabBarActiveTintColor: modules.PRIMARY,
       }}
     >
       {TAB_DATA.map(tab => (

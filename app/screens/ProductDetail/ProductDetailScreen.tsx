@@ -6,11 +6,12 @@ import _styles from '@styles'
 import modules from 'modules'
 import { FontGSansBold, FontGSansSemiBold, fontGSans } from '@customs/customFont'
 import { Product } from 'dummy'
-import { formatKRW } from 'services/format.service'
+import Price from 'components/Price'
 import BlurAndView from 'components/BlurAndView'
 import PressableScale from 'components/PressableScale'
-import ProductThumb from 'components/ProductThumb'
+import ImageViewer from 'components/ImageViewer'
 import ButtonPrimary from 'components/ButtonPrimary'
+import AppBackground from 'components/AppBackground'
 
 interface Props {
     product: Product
@@ -25,9 +26,10 @@ function ProductDetailScreen(props: Props): React.JSX.Element {
 
     return (
         <View style={_styles.containerWhite}>
+            <AppBackground />
             <ScrollView contentContainerStyle={[styles.content, { paddingTop: safeTop + 42 + modules.BODY_HORIZONTAL_24 }]}>
                 <View style={styles.hero}>
-                    <ProductThumb product={product} size={160} />
+                    <ImageViewer source={product.image} style={styles.heroImage} contentFit="cover" />
                 </View>
 
                 <Text style={styles.brand}>{product.brand}</Text>
@@ -35,7 +37,7 @@ function ProductDetailScreen(props: Props): React.JSX.Element {
                 <Text style={styles.nameKo}>{product.nameKo}</Text>
 
                 <View style={styles.metaRow}>
-                    <Text style={styles.price}>{formatKRW(product.price)}</Text>
+                    <Price style={styles.price} price={product.price} />
                     <View style={_styles.rows}>
                         <Ionicons name="star" size={16} color={modules.STATISTIC_ORANGE} />
                         <Text style={styles.meta}>{product.rating.toFixed(1)}</Text>
@@ -85,6 +87,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginBottom: modules.BODY_HORIZONTAL_24,
     },
+    heroImage: {
+        width: 160,
+        height: 160,
+        borderRadius: 160 / 4.5,
+        overflow: 'hidden',
+        borderWidth: StyleSheet.hairlineWidth,
+        borderColor: modules.BORDER_COLOR,
+    },
     brand: {
         ...FontGSansSemiBold,
         fontSize: modules.FONT_H7,
@@ -109,8 +119,10 @@ const styles = StyleSheet.create({
     },
     price: {
         ...FontGSansBold,
+        flexShrink: 1,
+        marginRight: modules.BODY_HORIZONTAL_12,
         fontSize: modules.FONT_H4,
-        color: modules.LINK,
+        color: modules.PRIMARY,
     },
     meta: {
         ...FontGSansSemiBold,
@@ -128,7 +140,7 @@ const styles = StyleSheet.create({
         paddingVertical: modules.SPACE,
         paddingHorizontal: modules.BODY_HORIZONTAL_12,
         borderRadius: 100,
-        backgroundColor: modules.SEARCH_BG,
+        backgroundColor: modules.WHITE,
     },
     chipText: {
         ...FontGSansSemiBold,

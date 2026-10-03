@@ -6,6 +6,7 @@ import _styles from '@styles'
 import modules, { IMAGES } from 'modules'
 import { FontGSansBold, fontGSans, fontGeorgiaBold } from '@customs/customFont'
 import ButtonPrimary from 'components/ButtonPrimary'
+import AppBackground from 'components/AppBackground'
 import { strings } from 'services/i18n.services'
 
 interface Props {
@@ -15,12 +16,15 @@ interface Props {
 const WelcomeScreen = (props: Props): React.JSX.Element => {
     return (
         <SafeAreaView style={_styles.containerWhite}>
+            <AppBackground />
             <View style={styles.content}>
                 <View style={styles.brand}>
                     <Text style={styles.title}>Men<Text style={styles.titleAccent}>Te</Text></Text>
                     <Image source={IMAGES.LOGO} style={styles.logo} contentFit="contain" />
                 </View>
-                <Text style={styles.subtitle}>{strings('welcomeMessage')}</Text>
+                <Text style={styles.subtitle}>
+                    {strings('mottoLead')} <Text style={styles.subtitleBold}>{strings('mottoAccent')}</Text>
+                </Text>
             </View>
 
             <ButtonPrimary style={styles.button} onPress={props.onGetStarted}>
@@ -61,6 +65,10 @@ const styles = StyleSheet.create({
         fontSize: modules.FONT_H5,
         lineHeight: 24,
         marginTop: modules.BODY_HORIZONTAL_12,
+    },
+    subtitleBold: {
+        ...FontGSansBold,
+        color: modules.TEXT,
     },
     button: {
         alignSelf: 'stretch',
