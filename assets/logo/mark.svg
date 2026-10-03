@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="drop" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#5BE7C4"/>
+      <stop offset="0.55" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#0E7C86"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-10 48)">
+  <!-- serum drop -->
+  <path d="M512 118 C 470 190 250 430 250 612 A 262 262 0 0 0 774 612 C 774 430 554 190 512 118 Z" fill="url(#drop)"/>
+  <!-- soft highlight -->
+  <path d="M372 560 C 380 470 440 380 492 312" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="34" stroke-linecap="round" fill="none"/>
+  <!-- mint leaf sprouting from the tip -->
+  <path d="M528 150 C 590 70 700 52 790 78 C 760 168 664 222 556 196 Z" fill="url(#leaf)"/>
+  <path d="M548 186 C 610 150 680 118 760 90" stroke="#0E7C86" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <!-- verified check -->
+  <path d="M398 626 L 482 708 L 644 538" stroke="#FFFFFF" stroke-width="64" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

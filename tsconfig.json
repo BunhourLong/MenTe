@@ -1,0 +1,17 @@
+{
+  "extends": "@react-native/typescript-config",
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@styles": ["./app/_styles"],
+      "*": ["./app/*"],
+      "@customs/*": ["./customs/*"],
+      "@components/*": ["./app/components/*"],
+      "@screens/*": ["./app/screens/*"],
+      "@boot/*": ["./boot/*"]
+    }
+  },
+  "exclude": ["node_modules", "Pods", "ios", "android"]
+}

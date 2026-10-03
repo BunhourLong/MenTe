@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#0B4F4A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.2" r="0.8">
+      <stop offset="0" stop-color="#5BE7C4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#5BE7C4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="check" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#0E7C86"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <g transform="translate(512 540) scale(0.68) translate(-522 -463)">
+    <path d="M512 118 C 470 190 250 430 250 612 A 262 262 0 0 0 774 612 C 774 430 554 190 512 118 Z" fill="#FFFFFF"/>
+    <path d="M528 150 C 590 70 700 52 790 78 C 760 168 664 222 556 196 Z" fill="url(#leaf)"/>
+    <path d="M548 186 C 610 150 680 118 760 90" stroke="#0E7C86" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M398 626 L 482 708 L 644 538" stroke="url(#check)" stroke-width="64" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

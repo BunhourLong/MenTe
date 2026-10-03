@@ -1,0 +1,279 @@
+[
+  {
+    "id": "cosrx-snail-96",
+    "brand": "COSRX",
+    "name": "Advanced Snail 96 Mucin Power Essence",
+    "nameKo": "어드밴스드 스네일 96 뮤신 파워 에센스",
+    "category": "Essence",
+    "volume": "100ml",
+    "price": 25000,
+    "rating": 4.7,
+    "barcode": "8809416470054",
+    "colors": [
+      "#F6D5C4",
+      "#E8A98C"
+    ],
+    "description": "A lightweight essence with 96% snail secretion filtrate that hydrates and soothes dull, dry skin.",
+    "ingredients": [
+      "Snail Secretion Filtrate",
+      "Betaine",
+      "Sodium Hyaluronate",
+      "Panthenol"
+    ],
+    "checks": [
+      "Almost no scent, no perfume smell",
+      "Clear, slightly stringy texture when lifted",
+      "Batch number and expiry are printed on the box bottom",
+      "Bottle label is crisp with no blurry text"
+    ]
+  },
+  {
+    "id": "laneige-water-sleeping-mask",
+    "brand": "LANEIGE",
+    "name": "Water Sleeping Mask",
+    "nameKo": "워터 슬리핑 마스크",
+    "category": "Mask",
+    "volume": "70ml",
+    "price": 32000,
+    "rating": 4.6,
+    "barcode": "8806180000001",
+    "colors": [
+      "#BFD9FF",
+      "#6E9BFF"
+    ],
+    "description": "An overnight gel mask that locks in moisture while you sleep for plump, refreshed skin by morning.",
+    "ingredients": [
+      "Hydro Ionized Mineral Water",
+      "Squalane",
+      "Hunza Apricot Extract",
+      "Evening Primrose"
+    ],
+    "checks": [
+      "Fresh, light floral scent",
+      "Blue, bouncy gel that melts into skin",
+      "Lid has an inner seal and a spatula inside",
+      "LANEIGE logo is embossed on the jar lid"
+    ]
+  },
+  {
+    "id": "innisfree-green-tea-serum",
+    "brand": "innisfree",
+    "name": "Green Tea Seed Hyaluronic Serum",
+    "nameKo": "그린티 씨드 히알루론산 세럼",
+    "category": "Serum",
+    "volume": "80ml",
+    "price": 33000,
+    "rating": 4.5,
+    "barcode": "8806180000002",
+    "colors": [
+      "#CFEFC8",
+      "#5DBB63"
+    ],
+    "description": "A hydrating serum made with Jeju green tea and green tea seed oil to strengthen the moisture barrier.",
+    "ingredients": [
+      "Green Tea Extract",
+      "Green Tea Seed Oil",
+      "Hyaluronic Acid",
+      "Glycerin"
+    ],
+    "checks": [
+      "Light green tea scent",
+      "Clear, watery serum that absorbs quickly",
+      "Pump dispenses smoothly without air bubbles",
+      "Korean and English labels on the box"
+    ]
+  },
+  {
+    "id": "boj-relief-sun",
+    "brand": "Beauty of Joseon",
+    "name": "Relief Sun: Rice + Probiotics SPF50+",
+    "nameKo": "맑은쌀 선크림",
+    "category": "Sunscreen",
+    "volume": "50ml",
+    "price": 18000,
+    "rating": 4.8,
+    "barcode": "8809738316061",
+    "colors": [
+      "#FFF1C9",
+      "#F2C94C"
+    ],
+    "description": "A light, creamy organic sunscreen with rice extract and grain probiotics. No white cast.",
+    "ingredients": [
+      "Rice Extract",
+      "Lactobacillus Ferment",
+      "Niacinamide",
+      "Ethylhexyl Triazone"
+    ],
+    "checks": [
+      "Faint, natural rice scent",
+      "Creamy texture with no white cast",
+      "Tube crimp shows a printed expiry date",
+      "Box has a scratch-off authenticity sticker"
+    ]
+  },
+  {
+    "id": "anua-heartleaf-toner",
+    "brand": "Anua",
+    "name": "Heartleaf 77% Soothing Toner",
+    "nameKo": "어성초 77 수딩 토너",
+    "category": "Toner",
+    "volume": "250ml",
+    "price": 28000,
+    "rating": 4.6,
+    "barcode": "8809640730047",
+    "colors": [
+      "#DDF3E4",
+      "#7CC596"
+    ],
+    "description": "A mild, low-pH toner with 77% heartleaf extract that calms redness and irritated skin.",
+    "ingredients": [
+      "Houttuynia Cordata Extract",
+      "Water",
+      "Butylene Glycol",
+      "Panthenol"
+    ],
+    "checks": [
+      "Very mild, slightly herbal scent",
+      "Water-like, colourless liquid",
+      "Cap has a tamper-evident seal ring",
+      "Barcode on the bottle matches the box"
+    ]
+  },
+  {
+    "id": "sulwhasoo-first-care",
+    "brand": "Sulwhasoo",
+    "name": "First Care Activating Serum",
+    "nameKo": "윤조에센스",
+    "category": "Serum",
+    "volume": "90ml",
+    "price": 135000,
+    "rating": 4.7,
+    "barcode": "8806180000003",
+    "colors": [
+      "#F5E3C3",
+      "#C99A4B"
+    ],
+    "description": "A ginseng-powered first serum that preps skin and boosts the absorption of the rest of your routine.",
+    "ingredients": [
+      "JAUM Activator",
+      "Ginseng Root Extract",
+      "Peony Extract",
+      "Lily Extract"
+    ],
+    "checks": [
+      "Herbal, ginseng-like scent",
+      "Golden-amber, light serum",
+      "Bottle feels heavy and the glass is thick",
+      "Gold lettering is sharp and does not rub off"
+    ]
+  },
+  {
+    "id": "romand-juicy-tint",
+    "brand": "rom&nd",
+    "name": "Juicy Lasting Tint",
+    "nameKo": "쥬시 래스팅 틴트",
+    "category": "Lip",
+    "volume": "5.5g",
+    "price": 13000,
+    "rating": 4.5,
+    "barcode": "8809625240000",
+    "colors": [
+      "#FFC2C7",
+      "#E5566B"
+    ],
+    "description": "A glossy, juicy lip tint with long-lasting colour and a non-sticky finish.",
+    "ingredients": [
+      "Polybutene",
+      "Hydrogenated Polyisobutene",
+      "Diisostearyl Malate",
+      "Tocopherol"
+    ],
+    "checks": [
+      "Sweet fruity scent",
+      "Glossy finish that is not sticky",
+      "Applicator tip is soft and evenly shaped",
+      "Shade name on the sticker matches the box"
+    ]
+  },
+  {
+    "id": "skin1004-centella-ampoule",
+    "brand": "SKIN1004",
+    "name": "Madagascar Centella Ampoule",
+    "nameKo": "마다가스카르 센텔라 앰플",
+    "category": "Ampoule",
+    "volume": "100ml",
+    "price": 23000,
+    "rating": 4.6,
+    "barcode": "8809576261103",
+    "colors": [
+      "#E7F0D6",
+      "#9DBF6B"
+    ],
+    "description": "A single-ingredient ampoule of 100% centella asiatica extract to soothe and repair sensitive skin.",
+    "ingredients": [
+      "Centella Asiatica Extract"
+    ],
+    "checks": [
+      "Faint, earthy herbal scent",
+      "Clear, slightly thick ampoule",
+      "Dropper bulb is firm and draws liquid evenly",
+      "Madagascar map is printed clearly on the box"
+    ]
+  },
+  {
+    "id": "torriden-dive-in-serum",
+    "brand": "Torriden",
+    "name": "DIVE-IN Low Molecular Hyaluronic Acid Serum",
+    "nameKo": "다이브인 저분자 히알루론산 세럼",
+    "category": "Serum",
+    "volume": "50ml",
+    "price": 22000,
+    "rating": 4.7,
+    "barcode": "8809740520000",
+    "colors": [
+      "#D3EEFA",
+      "#4FB3E0"
+    ],
+    "description": "Five types of low-molecular hyaluronic acid deliver deep, lasting hydration without stickiness.",
+    "ingredients": [
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Panthenol",
+      "Allantoin"
+    ],
+    "checks": [
+      "No added fragrance",
+      "Clear, watery serum with no stickiness",
+      "Dropper has the Torriden logo on the collar",
+      "Box has a hologram sticker"
+    ]
+  },
+  {
+    "id": "round-lab-dokdo-cleanser",
+    "brand": "ROUND LAB",
+    "name": "1025 Dokdo Cleanser",
+    "nameKo": "1025 독도 클렌저",
+    "category": "Cleanser",
+    "volume": "150ml",
+    "price": 14000,
+    "rating": 4.5,
+    "barcode": "8809582740000",
+    "colors": [
+      "#D9E8F5",
+      "#5B8DB8"
+    ],
+    "description": "A gentle, low-pH foam cleanser made with deep sea water from Ulleungdo that cleans without tightness.",
+    "ingredients": [
+      "Sea Water",
+      "Glycerin",
+      "Betaine",
+      "Panthenol"
+    ],
+    "checks": [
+      "Fresh, cool mint-like scent",
+      "Soft, dense white foam",
+      "Tube cap snaps shut firmly",
+      "Dokdo island illustration is printed clearly"
+    ]
+  }
+]

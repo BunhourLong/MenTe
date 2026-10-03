@@ -1,0 +1,8 @@
+{
+  "name": "Mente",
+  "displayName": "MenTe",
+  "plugins": [
+    "expo-asset",
+    "expo-font"
+  ]
+}
