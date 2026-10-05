@@ -29,10 +29,8 @@ const TAB_DATA: {
   // Pressing the tab pushes this root stack screen instead of switching to the tab.
   stack?: string
 }[] = [
-  { name: 'HomeTab', label: 'Home', component: HomeContainer, sfSymbol: 'house.fill', ionicon: { fill: 'home', outline: 'home-outline' } },
-  { name: 'SearchTab', label: 'Search', component: SearchContainer, sfSymbol: 'magnifyingglass', ionicon: { fill: 'search', outline: 'search-outline' }, systemItem: 'search' },
+  { name: 'HomeTab', label: 'Store', component: HomeContainer, sfSymbol: 'house.fill', ionicon: { fill: 'home', outline: 'home-outline' } },
   { name: 'ScanTab', label: 'Scan', component: EmptyTab, sfSymbol: 'qrcode.viewfinder', ionicon: { fill: 'qr-code', outline: 'qr-code-outline' }, stack: 'SCAN_PRODUCT' },
-  { name: 'ProfileTab', label: 'Profile', component: ProfileContainer, sfSymbol: 'person.fill', ionicon: { fill: 'person', outline: 'person-outline' } },
 ]
 
 function APP_TAB(): React.JSX.Element {

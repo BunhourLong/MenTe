@@ -34,7 +34,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Mente uses the camera to scan products.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Mente uses your location to show the trusted stores nearest to you.</string>
 	<key>RCTNewArchEnabled</key>
 	<true/>
 	<key>UIAppFonts</key>

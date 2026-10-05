@@ -8,7 +8,7 @@ import { FontGSansBold, FontGSansSemiBold, fontGSans } from '@customs/customFont
 import { Product } from 'dummy'
 import BlurAndView from 'components/BlurAndView'
 import PressableScale from 'components/PressableScale'
-import ProductThumb from 'components/ProductThumb'
+import ImageViewer from 'components/ImageViewer'
 import AppBackground from 'components/AppBackground'
 import { Verdict } from './verdict'
 
@@ -37,13 +37,13 @@ const VerifyProductScreen = (props: Props): React.JSX.Element => {
         <View style={_styles.containerWhite}>
             <AppBackground />
             <ScrollView contentContainerStyle={[styles.content, { paddingTop: safeTop + 42 + modules.BODY_HORIZONTAL_12 }]}>
-                <View style={styles.productRow}>
-                    <ProductThumb product={product} size={64} />
-                    <View style={_styles.flx1}>
-                        <Text style={styles.brand}>{product.brand}</Text>
-                        <Text style={styles.name} numberOfLines={2}>{product.name}</Text>
-                    </View>
+                <View style={styles.hero}>
+                    <ImageViewer source={product.image} style={styles.heroImage} contentFit="cover" />
                 </View>
+
+                <Text style={styles.brand}>{product.brand}</Text>
+                <Text style={styles.name}>{product.name}</Text>
+                <Text style={styles.nameKo}>{product.nameKo}</Text>
 
                 <View style={[styles.verdict, { backgroundColor: verdict.bg }]}>
                     <Ionicons name={verdict.icon} size={36} color={verdict.color} />
@@ -101,20 +101,34 @@ const styles = StyleSheet.create({
         paddingHorizontal: modules.BODY_HORIZONTAL_18,
         paddingBottom: modules.BODY_HORIZONTAL_ACTION,
     },
-    productRow: {
-        ..._styles.rows,
-        gap: modules.BODY_HORIZONTAL_12,
+    hero: {
+        alignItems: 'center',
+        marginBottom: modules.BODY_HORIZONTAL_24,
+    },
+    heroImage: {
+        width: 300,
+        height: 300,
+        borderRadius: 160 / 4.5,
+        overflow: 'hidden',
+        borderWidth: StyleSheet.hairlineWidth,
+        borderColor: modules.BORDER_COLOR,
     },
     brand: {
         ...FontGSansSemiBold,
-        fontSize: modules.FONT_P,
+        fontSize: modules.FONT_H7,
         color: modules.SUB_TEXT,
     },
     name: {
         ...FontGSansBold,
-        fontSize: modules.FONT_H5,
+        fontSize: modules.FONT_H3,
         color: modules.TEXT,
-        marginTop: 2,
+        marginTop: modules.SPACE,
+    },
+    nameKo: {
+        ...fontGSans,
+        fontSize: modules.FONT_H6,
+        color: modules.SUB_TEXT,
+        marginTop: modules.SPACE,
     },
     verdict: {
         ..._styles.rows,

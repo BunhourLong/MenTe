@@ -1,35 +1,31 @@
 import React from 'react'
-import { FlatList, StyleSheet, Text, View, useWindowDimensions } from 'react-native'
+import { FlatList, StyleSheet, Text, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { Image } from 'expo-image'
 import _styles from '@styles'
 import modules, { IMAGES } from 'modules'
 import { FontGSansBold, fontGSans, fontGeorgiaBold } from '@customs/customFont'
-import { Product } from 'dummy'
+import { Store } from 'dummy'
 import { strings } from 'services/i18n.services'
 import AppBackground from 'components/AppBackground'
 import { APP_TAB_HEIGHT } from 'routes/TabBar'
-import ProductCard from './components/ProductCard'
+import StoreCard from './components/StoreCard'
 
 interface Props {
-  products: Product[]
-  onPressProduct: (product: Product) => void
+  stores: (Store & { distance?: number })[]
+  onPressStore: (store: Store) => void
 }
 
 const PADDING = modules.BODY_HORIZONTAL_18
 const GAP = modules.BODY_HORIZONTAL_12
 
 function HomeScreen(props: Props): React.JSX.Element {
-  const cardWidth = (useWindowDimensions().width - PADDING * 2 - GAP) / 2
-
   return (
     <SafeAreaView edges={['top']} style={_styles.containerWhite}>
       <AppBackground />
       <FlatList
-        data={props.products}
+        data={props.stores}
         keyExtractor={item => item.id}
-        numColumns={2}
-        columnWrapperStyle={styles.column}
         contentContainerStyle={styles.content}
         showsVerticalScrollIndicator={false}
         ListHeaderComponent={
@@ -44,10 +40,10 @@ function HomeScreen(props: Props): React.JSX.Element {
             </Text>
             <Text style={styles.mottoSub}>{strings('mottoSub')}</Text>
 
-            <Text style={styles.sectionTitle}>{strings('productsToVerify')}</Text>
+            <Text style={styles.sectionTitle}>{strings('trustedStores')}</Text>
           </>
         }
-        renderItem={({ item }) => <ProductCard product={item} width={cardWidth} onPress={() => props.onPressProduct(item)} />}
+        renderItem={({ item }) => <StoreCard store={item} distance={item.distance} onPress={() => props.onPressStore(item)} />}
       />
     </SafeAreaView>
   )
@@ -59,10 +55,6 @@ const styles = StyleSheet.create({
   content: {
     gap: GAP,
     paddingBottom: APP_TAB_HEIGHT + GAP,
-  },
-  column: {
-    gap: GAP,
-    paddingHorizontal: PADDING,
   },
   brand: {
     ..._styles.rows,

@@ -4,12 +4,13 @@
   "language": "ភាសា",
   "languageName": "ខ្មែរ",
   "chooseLanguage": "ជ្រើសរើសភាសា",
-  "productsToVerify": "ផលិតផលដែលអាចផ្ទៀងផ្ទាត់បាន",
   "mottoLead": "សម្រស់ដែលអ្នកអាច",
   "mottoAccent": "ទុកចិត្តបាន។",
   "mottoSub": "ពិនិត្យថាផលិតផលនីមួយៗជារបស់ពិត មុនពេលវាប៉ះស្បែករបស់អ្នក។",
-  "currency": "រូបិយប័ណ្ណ",
-  "chooseCurrency": "ជ្រើសរើសរូបិយប័ណ្ណ",
-  "currencyUSD": "ដុល្លារអាមេរិក",
-  "currencyKHR": "ប្រាក់រៀល"
+  "trustedStores": "ហាងដែលអាចទុកចិត្តបាន",
+  "productsCount": "ផលិតផលពិត %{count}",
+  "getDirections": "បង្ហាញផ្លូវ",
+  "authenticHere": "ផលិតផលពិតនៅទីនេះ",
+  "trustedStore": "ហាងដែលអាចទុកចិត្តបាន",
+  "verify": "ផ្ទៀងផ្ទាត់"
 }

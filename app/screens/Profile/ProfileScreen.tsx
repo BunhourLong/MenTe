@@ -8,8 +8,6 @@ import { FontGSansBold } from '@customs/customFont'
 import ButtonPrimary from 'components/ButtonPrimary'
 import AppBackground from 'components/AppBackground'
 import ModalSelectLanguage from 'components/ModalSelectLanguage'
-import ModalSelectCurrency, { CURRENCY_SYMBOL } from 'components/ModalSelectCurrency'
-import { Currency } from 'services/format.service'
 import { SlideModalRef } from 'components/SlideModal'
 import { strings } from 'services/i18n.services'
 
@@ -18,11 +16,6 @@ interface Props {
 
     onPressLanguage: () => void
     onCloseLanguage: () => void
-
-    currency: Currency
-    currencyModalRef: React.RefObject<SlideModalRef | null>
-    onPressCurrency: () => void
-    onCloseCurrency: () => void
 }
 
 function ProfileScreen(props: Props): React.JSX.Element {
@@ -36,13 +29,7 @@ function ProfileScreen(props: Props): React.JSX.Element {
                 <Text style={styles.buttonText}>{`${strings('language')}: ${strings('languageName')}`}</Text>
             </ButtonPrimary>
 
-            <ButtonPrimary style={[styles.button, styles.buttonGap]} onPress={props.onPressCurrency}>
-                <Ionicons name="cash-outline" size={20} color={modules.WHITE} />
-                <Text style={styles.buttonText}>{`${strings('currency')}: ${strings(`currency${props.currency}`)} (${CURRENCY_SYMBOL[props.currency]})`}</Text>
-            </ButtonPrimary>
-
             <ModalSelectLanguage ref={props.modalRef} onBackdropPress={props.onCloseLanguage} />
-            <ModalSelectCurrency ref={props.currencyModalRef} onBackdropPress={props.onCloseCurrency} />
         </SafeAreaView>
     )
 }
@@ -65,9 +52,6 @@ const styles = StyleSheet.create({
         height: 52,
         borderRadius: modules.CARD_RADIUS,
         marginHorizontal: modules.BODY_HORIZONTAL_18,
-    },
-    buttonGap: {
-        marginTop: modules.BODY_HORIZONTAL_12,
     },
     buttonText: {
         ...FontGSansBold,

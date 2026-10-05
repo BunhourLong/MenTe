@@ -6,7 +6,6 @@ import _styles from '@styles'
 import modules from 'modules'
 import { FontGSansBold, FontGSansSemiBold, fontGSans } from '@customs/customFont'
 import { Product } from 'dummy'
-import Price from 'components/Price'
 import BlurAndView from 'components/BlurAndView'
 import PressableScale from 'components/PressableScale'
 import ImageViewer from 'components/ImageViewer'
@@ -37,11 +36,8 @@ function ProductDetailScreen(props: Props): React.JSX.Element {
                 <Text style={styles.nameKo}>{product.nameKo}</Text>
 
                 <View style={styles.metaRow}>
-                    <Price style={styles.price} price={product.price} />
-                    <View style={_styles.rows}>
-                        <Ionicons name="star" size={16} color={modules.STATISTIC_ORANGE} />
-                        <Text style={styles.meta}>{product.rating.toFixed(1)}</Text>
-                    </View>
+                    <Ionicons name="star" size={16} color={modules.STATISTIC_ORANGE} />
+                    <Text style={styles.meta}>{product.rating.toFixed(1)}</Text>
                 </View>
 
                 <View style={styles.chips}>
@@ -88,8 +84,8 @@ const styles = StyleSheet.create({
         marginBottom: modules.BODY_HORIZONTAL_24,
     },
     heroImage: {
-        width: 160,
-        height: 160,
+        width: 300,
+        height: 300,
         borderRadius: 160 / 4.5,
         overflow: 'hidden',
         borderWidth: StyleSheet.hairlineWidth,
@@ -114,15 +110,7 @@ const styles = StyleSheet.create({
     },
     metaRow: {
         ..._styles.rows,
-        justifyContent: 'space-between',
         marginTop: modules.BODY_HORIZONTAL,
-    },
-    price: {
-        ...FontGSansBold,
-        flexShrink: 1,
-        marginRight: modules.BODY_HORIZONTAL_12,
-        fontSize: modules.FONT_H4,
-        color: modules.PRIMARY,
     },
     meta: {
         ...FontGSansSemiBold,

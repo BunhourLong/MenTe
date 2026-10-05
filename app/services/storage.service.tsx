@@ -12,11 +12,3 @@ export function setLanguage(language: string) {
 export function getLanguage() {
     return local_storage.getString('language')
 }
-
-export function setCurrency(currency: string) {
-    local_storage.set('currency', currency)
-}
-
-export function getCurrency() {
-    return local_storage.getString('currency')
-}

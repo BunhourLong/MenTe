@@ -1,226 +1,282 @@
 [
   {
-    "id": "cosrx-snail-96",
-    "brand": "COSRX",
-    "name": "Advanced Snail 96 Mucin Power Essence",
-    "nameKo": "어드밴스드 스네일 96 뮤신 파워 에센스",
-    "category": "Essence",
-    "volume": "100ml",
-    "price": {
-      "min": 14,
-      "max": 22
-    },
-    "rating": 4.7,
-    "barcode": "8809416470054",
-    "image": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/james_800x1067_1_1_4e9750cc-2cd6-4817-ace5-be2305a85806.jpg?v=1763111577&width=600",
-    "colors": [
-      "#F6D5C4",
-      "#E8A98C"
-    ],
-    "description": "A lightweight essence with 96% snail secretion filtrate that hydrates and soothes dull, dry skin.",
-    "ingredients": [
-      "Snail Secretion Filtrate",
-      "Betaine",
-      "Sodium Hyaluronate",
-      "Panthenol"
-    ],
-    "checks": [
-      "Almost no scent, no perfume smell",
-      "Clear, slightly stringy texture when lifted",
-      "Batch number and expiry are printed on the box bottom",
-      "Bottle label is crisp with no blurry text"
-    ]
-  },
-  {
-    "id": "laneige-water-sleeping-mask",
-    "brand": "LANEIGE",
-    "name": "Water Sleeping Mask",
-    "nameKo": "워터 슬리핑 마스크",
-    "category": "Mask",
-    "volume": "70ml",
-    "price": {
-      "min": 20,
-      "max": 32
-    },
-    "rating": 4.6,
-    "barcode": "8806180000001",
-    "image": "https://cdn.shopify.com/s/files/1/0255/0189/2660/files/WSM_AD_PDP_2.jpg?v=1754046790&width=600",
-    "colors": [
-      "#BFD9FF",
-      "#6E9BFF"
-    ],
-    "description": "An overnight gel mask that locks in moisture while you sleep for plump, refreshed skin by morning.",
-    "ingredients": [
-      "Hydro Ionized Mineral Water",
-      "Squalane",
-      "Hunza Apricot Extract",
-      "Evening Primrose"
-    ],
-    "checks": [
-      "Fresh, light floral scent",
-      "Blue, bouncy gel that melts into skin",
-      "Lid has an inner seal and a spatula inside",
-      "LANEIGE logo is embossed on the jar lid"
-    ]
-  },
-  {
-    "id": "innisfree-green-tea-serum",
-    "brand": "innisfree",
-    "name": "Green Tea Seed Hyaluronic Serum",
-    "nameKo": "그린티 씨드 히알루론산 세럼",
+    "id": "boj-glow-serum",
+    "brand": "Beauty of Joseon",
+    "name": "Glow Serum: Propolis + Niacinamide",
+    "nameKo": "광채 프로폴리스 세럼",
     "category": "Serum",
-    "volume": "80ml",
-    "price": {
-      "min": 18,
-      "max": 28
-    },
-    "rating": 4.5,
-    "barcode": "8806180000002",
-    "image": "https://cdn.shopify.com/s/files/1/0089/3367/1012/files/IF_BottleRePlay_Packshot.jpg?v=1775044946&width=600",
+    "volume": "30ml",
+    "rating": 4.7,
+    "barcode": "8809657114960",
+    "image": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/glow-serum-propolis-niacinamide-1-front.webp?v=1770278801&width=600",
     "colors": [
-      "#CFEFC8",
-      "#5DBB63"
+      "#F7D88A",
+      "#E3A93B"
     ],
-    "description": "A hydrating serum made with Jeju green tea and green tea seed oil to strengthen the moisture barrier.",
+    "description": "A honey-gold serum with 60% propolis extract and niacinamide that calms breakouts and evens out dull skin.",
     "ingredients": [
-      "Green Tea Extract",
-      "Green Tea Seed Oil",
-      "Hyaluronic Acid",
+      "Propolis Extract",
+      "Niacinamide",
+      "Tea Tree Leaf Oil",
+      "Turmeric Root Extract"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Golden, slightly sticky serum that smells faintly of honey",
+      "Glass dropper bottle with the Joseon hanja logo printed sharply on the label",
+      "Batch number and expiry are stamped on the box bottom"
+    ]
+  },
+  {
+    "id": "boj-revive-eye-serum",
+    "brand": "Beauty of Joseon",
+    "name": "Revive Eye Serum: Ginseng + Retinal",
+    "nameKo": "인삼 레티날 아이세럼",
+    "category": "Eye care",
+    "volume": "30ml",
+    "rating": 4.6,
+    "barcode": "8809738316146",
+    "image": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/revive-eye-serum-ginseng-retinal-1-front.webp?v=1770287139&width=600",
+    "colors": [
+      "#F3DCD2",
+      "#C99A86"
+    ],
+    "description": "A lightweight eye serum with ginseng root water and a gentle retinal to soften fine lines and dark circles.",
+    "ingredients": [
+      "Panax Ginseng Root Water",
+      "Retinal",
+      "Niacinamide",
+      "Adenosine"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Pale pink tube with a metal massage tip",
+      "Slightly yellow, soft gel texture",
+      "Tube crimp shows the batch and expiry clearly"
+    ]
+  },
+  {
+    "id": "boj-ginseng-essence-water",
+    "brand": "Beauty of Joseon",
+    "name": "Ginseng Essence Water",
+    "nameKo": "인삼 에센스 워터",
+    "category": "Toner",
+    "volume": "150ml",
+    "rating": 4.6,
+    "barcode": "8809738310960",
+    "image": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/ginseng-essence-water-1-front.webp?v=1770618733&width=600",
+    "colors": [
+      "#D9925A",
+      "#8C4A22"
+    ],
+    "description": "An amber essence-toner made with 80% ginseng water that hydrates and firms dry, tired skin.",
+    "ingredients": [
+      "Panax Ginseng Root Water",
+      "Glycerin",
+      "Niacinamide",
+      "Adenosine"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Amber-brown liquid in a clear bottle",
+      "Light herbal ginseng scent, not perfumy",
+      "Label text is crisp, with no misspellings in the Korean"
+    ]
+  },
+  {
+    "id": "boj-rice-milk-toner",
+    "brand": "Beauty of Joseon",
+    "name": "Glow Replenishing Rice Milk",
+    "nameKo": "글로우 리플레니싱 라이스 밀크",
+    "category": "Toner",
+    "volume": "150ml",
+    "rating": 4.5,
+    "barcode": "8809968130239",
+    "image": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/glow-replenshing-rice-milk-1-front.webp?v=1769660112&width=600",
+    "colors": [
+      "#F4EFE6",
+      "#D8CDB8"
+    ],
+    "description": "A milky toner with rice water and ceramides that hydrates and leaves a soft glow.",
+    "ingredients": [
+      "Oryza Sativa (Rice) Extract",
+      "Niacinamide",
+      "Ceramide NP",
       "Glycerin"
     ],
     "checks": [
-      "Light green tea scent",
-      "Clear, watery serum that absorbs quickly",
-      "Pump dispenses smoothly without air bubbles",
-      "Korean and English labels on the box"
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Milky, semi-opaque liquid that separates slightly at rest",
+      "Barely any scent",
+      "Batch and expiry are printed on the bottle base"
     ]
   },
   {
-    "id": "boj-relief-sun",
+    "id": "boj-calming-serum",
     "brand": "Beauty of Joseon",
-    "name": "Relief Sun: Rice + Probiotics SPF50+",
-    "nameKo": "맑은쌀 선크림",
-    "category": "Sunscreen",
-    "volume": "50ml",
-    "price": {
-      "min": 10,
-      "max": 18
-    },
-    "rating": 4.8,
-    "barcode": "8809738316061",
-    "image": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/02_0330___v2.jpg?v=1774857974&width=600",
+    "name": "Calming Serum: Green Tea + Panthenol",
+    "nameKo": "녹차 판테놀 진정 세럼",
+    "category": "Serum",
+    "volume": "30ml",
+    "rating": 4.5,
+    "barcode": "8809738316412",
+    "image": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/001_61356454-461b-424d-8ef7-32589fb88d92.png?v=1777585365&width=600",
     "colors": [
-      "#FFF1C9",
-      "#F2C94C"
+      "#D6E6C3",
+      "#8DB36A"
     ],
-    "description": "A light, creamy organic sunscreen with rice extract and grain probiotics. No white cast.",
+    "description": "A soothing green-tea serum with panthenol for red, irritated and sensitive skin.",
     "ingredients": [
-      "Rice Extract",
-      "Lactobacillus Ferment",
-      "Niacinamide",
-      "Ethylhexyl Triazone"
+      "Camellia Sinensis Leaf Extract",
+      "Panthenol",
+      "Centella Asiatica Extract",
+      "Allantoin"
     ],
     "checks": [
-      "Faint, natural rice scent",
-      "Creamy texture with no white cast",
-      "Tube crimp shows a printed expiry date",
-      "Box has a scratch-off authenticity sticker"
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Light green tint, watery gel",
+      "Fresh green-tea scent",
+      "Dropper and bottle neck fit tightly with no leaks"
     ]
   },
   {
-    "id": "anua-heartleaf-toner",
+    "id": "boj-red-bean-water-gel",
+    "brand": "Beauty of Joseon",
+    "name": "Red Bean Water Gel",
+    "nameKo": "팥 수분 젤",
+    "category": "Moisturizer",
+    "volume": "100ml",
+    "rating": 4.4,
+    "barcode": "8809738316993",
+    "image": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/red-bean-water-gel-1-front.webp?v=1770286899&width=600",
+    "colors": [
+      "#F6C9CF",
+      "#D98A95"
+    ],
+    "description": "An oil-free water gel with red bean extract that hydrates and controls shine on oily skin.",
+    "ingredients": [
+      "Phaseolus Angularis Seed Extract",
+      "Niacinamide",
+      "Panthenol",
+      "Ceramide NP"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Pink squeeze tube with a white cap",
+      "Clear, bouncy gel that sinks in fast",
+      "Tube crimp shows the batch and expiry"
+    ]
+  },
+  {
+    "id": "anua-heartleaf-77-toner",
     "brand": "Anua",
     "name": "Heartleaf 77% Soothing Toner",
     "nameKo": "어성초 77 수딩 토너",
     "category": "Toner",
     "volume": "250ml",
-    "price": {
-      "min": 15,
-      "max": 25
-    },
-    "rating": 4.6,
-    "barcode": "8809640730047",
+    "rating": 4.7,
+    "barcode": "8809640736025",
     "image": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-heartleaf-77-soothing-toner-1239193744.jpg?v=1779181932&width=600",
     "colors": [
-      "#DDF3E4",
-      "#7CC596"
+      "#E4EEDC",
+      "#9DBB8A"
     ],
-    "description": "A mild, low-pH toner with 77% heartleaf extract that calms redness and irritated skin.",
+    "description": "A gentle, watery toner with 77% heartleaf extract that calms redness and preps sensitive skin.",
     "ingredients": [
       "Houttuynia Cordata Extract",
       "Water",
-      "Butylene Glycol",
+      "Glycerin",
       "Panthenol"
     ],
     "checks": [
-      "Very mild, slightly herbal scent",
-      "Water-like, colourless liquid",
-      "Cap has a tamper-evident seal ring",
-      "Barcode on the bottle matches the box"
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Clear, watery liquid with a faint herbal smell",
+      "Large \"77+\" printed sharply on the front",
+      "Cap clicks shut; no leaks or residue at the neck"
     ]
   },
   {
-    "id": "sulwhasoo-first-care",
-    "brand": "Sulwhasoo",
-    "name": "First Care Activating Serum",
-    "nameKo": "윤조에센스",
-    "category": "Serum",
-    "volume": "90ml",
-    "price": {
-      "min": 70,
-      "max": 100
-    },
+    "id": "anua-heartleaf-cleansing-oil",
+    "brand": "Anua",
+    "name": "Heartleaf Pore Control Cleansing Oil",
+    "nameKo": "어성초 포어 컨트롤 클렌징 오일",
+    "category": "Cleanser",
+    "volume": "200ml",
     "rating": 4.7,
-    "barcode": "8806180000003",
-    "image": "https://cdn.shopify.com/s/files/1/0249/8399/4413/files/2023FCAS6thGeneration-60ml-1_270320590_Brand.com_1080px1_1ratio.jpg?v=1732034287&width=600",
+    "barcode": "8809640735790",
+    "image": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-cleanser-heartleaf-pore-control-cleansing-oil-1239193742.jpg?v=1779181871&width=600",
     "colors": [
-      "#F5E3C3",
-      "#C99A4B"
+      "#F2EDC8",
+      "#C9BC6E"
     ],
-    "description": "A ginseng-powered first serum that preps skin and boosts the absorption of the rest of your routine.",
+    "description": "A light cleansing oil with heartleaf that melts sunscreen and makeup and emulsifies off without residue.",
     "ingredients": [
-      "JAUM Activator",
-      "Ginseng Root Extract",
-      "Peony Extract",
-      "Lily Extract"
+      "Ethylhexyl Palmitate",
+      "Houttuynia Cordata Extract",
+      "Olea Europaea (Olive) Fruit Oil",
+      "Vitis Vinifera (Grape) Seed Oil"
     ],
     "checks": [
-      "Herbal, ginseng-like scent",
-      "Golden-amber, light serum",
-      "Bottle feels heavy and the glass is thick",
-      "Gold lettering is sharp and does not rub off"
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Pale yellow oil that turns milky when mixed with water",
+      "Pump locks and dispenses evenly",
+      "Batch and expiry are printed on the bottle"
     ]
   },
   {
-    "id": "romand-juicy-tint",
-    "brand": "rom&nd",
-    "name": "Juicy Lasting Tint",
-    "nameKo": "쥬시 래스팅 틴트",
-    "category": "Lip",
-    "volume": "5.5g",
-    "price": {
-      "min": 7,
-      "max": 12
-    },
+    "id": "anua-quercetinol-foam",
+    "brand": "Anua",
+    "name": "Heartleaf Quercetinol Pore Deep Cleansing Foam",
+    "nameKo": "어성초 퀘르세티놀 포어 딥 클렌징 폼",
+    "category": "Cleanser",
+    "volume": "150ml",
     "rating": 4.5,
-    "barcode": "8809625240000",
-    "image": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/07_JUJUBE_1.jpg?v=1775131605&width=600",
+    "barcode": "8809640735622",
+    "image": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-cleanser-heartleaf-quercetinol-pore-deep-cleansing-foam-1239193718.jpg?v=1779181814&width=600",
     "colors": [
-      "#FFC2C7",
-      "#E5566B"
+      "#CFE3C2",
+      "#6F9C5A"
     ],
-    "description": "A glossy, juicy lip tint with long-lasting colour and a non-sticky finish.",
+    "description": "A low-pH foam cleanser with heartleaf and quercetinol that clears pores without stripping.",
     "ingredients": [
-      "Polybutene",
-      "Hydrogenated Polyisobutene",
-      "Diisostearyl Malate",
-      "Tocopherol"
+      "Houttuynia Cordata Extract",
+      "Quercetin",
+      "BHA",
+      "Glycerin"
     ],
     "checks": [
-      "Sweet fruity scent",
-      "Glossy finish that is not sticky",
-      "Applicator tip is soft and evenly shaped",
-      "Shade name on the sticker matches the box"
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Green tube with white Anua lettering",
+      "Creamy foam with a light herbal scent",
+      "Tube crimp shows the batch and expiry"
+    ]
+  },
+  {
+    "id": "anua-heartleaf-80-ampoule",
+    "brand": "Anua",
+    "name": "Heartleaf 80% Moisture Soothing Ampoule",
+    "nameKo": "어성초 80 수분 진정 앰플",
+    "category": "Ampoule",
+    "volume": "30ml",
+    "rating": 4.6,
+    "barcode": "8809640734717",
+    "image": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-global-ampoule-serum-heartleaf-80-moisture-soothing-ampoule-1239193699.jpg?v=1779174130&width=600",
+    "colors": [
+      "#F5E6CC",
+      "#D6B27A"
+    ],
+    "description": "A soothing ampoule with 80% heartleaf and panthenol that hydrates and calms irritated skin.",
+    "ingredients": [
+      "Houttuynia Cordata Extract",
+      "Panthenol",
+      "Glycerin",
+      "Sodium Hyaluronate"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Large \"80%\" printed on the front of the bottle",
+      "Light, slightly viscous texture with no strong scent",
+      "Dropper bulb is firm and draws evenly"
     ]
   },
   {
@@ -230,26 +286,134 @@
     "nameKo": "마다가스카르 센텔라 앰플",
     "category": "Ampoule",
     "volume": "100ml",
-    "price": {
-      "min": 12,
-      "max": 20
-    },
-    "rating": 4.6,
-    "barcode": "8809576261103",
-    "image": "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-ampoule-serum-30ml-centella-ampoule-40725717254390.png?v=1717577033&width=600",
+    "rating": 4.8,
+    "barcode": "8809576261172",
+    "image": "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-ampoule-serum-centella-ampoule-40725717221622.png?v=1717577035&width=600",
     "colors": [
-      "#E7F0D6",
-      "#9DBF6B"
+      "#F2E3B8",
+      "#C9A65A"
     ],
-    "description": "A single-ingredient ampoule of 100% centella asiatica extract to soothe and repair sensitive skin.",
+    "description": "A single-ingredient ampoule of 100% centella asiatica extract from Madagascar that soothes and repairs.",
     "ingredients": [
       "Centella Asiatica Extract"
     ],
     "checks": [
-      "Faint, earthy herbal scent",
-      "Clear, slightly thick ampoule",
-      "Dropper bulb is firm and draws liquid evenly",
-      "Madagascar map is printed clearly on the box"
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Only one ingredient listed: Centella Asiatica Extract",
+      "Clear to pale gold, watery texture with a faint herbal scent",
+      "Batch and expiry are printed on the box bottom"
+    ]
+  },
+  {
+    "id": "skin1004-hyalu-cica-serum",
+    "brand": "SKIN1004",
+    "name": "Madagascar Centella Hyalu-Cica Blue Serum",
+    "nameKo": "마다가스카르 센텔라 히알루시카 블루 세럼",
+    "category": "Serum",
+    "volume": "30ml",
+    "rating": 4.6,
+    "barcode": "8809576261059",
+    "image": "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-ampoule-serum-hyalu-cica-blue-serum-40032061096182.png?v=1709704927&width=600",
+    "colors": [
+      "#D7E8F3",
+      "#7FAFD1"
+    ],
+    "description": "A light blue serum with hyaluronic acid and centella that hydrates without feeling sticky.",
+    "ingredients": [
+      "Centella Asiatica Extract",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Panthenol"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Light blue glass bottle with a white dropper",
+      "Clear, watery gel texture",
+      "Batch and expiry are printed on the box bottom"
+    ]
+  },
+  {
+    "id": "skin1004-centella-toning-toner",
+    "brand": "SKIN1004",
+    "name": "Madagascar Centella Toning Toner",
+    "nameKo": "마다가스카르 센텔라 토닝 토너",
+    "category": "Toner",
+    "volume": "210ml",
+    "rating": 4.5,
+    "barcode": "8809576260120",
+    "image": "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-toner-centella-toning-toner-38642837750006.png?v=1766754925&width=600",
+    "colors": [
+      "#F1E4C4",
+      "#B8975B"
+    ],
+    "description": "A mild exfoliating toner with centella and PHA that smooths texture without irritation.",
+    "ingredients": [
+      "Centella Asiatica Extract",
+      "Gluconolactone",
+      "Niacinamide",
+      "Panthenol"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Clear, slightly golden liquid",
+      "Faint herbal scent, no alcohol smell",
+      "Cap and label align straight on the bottle"
+    ]
+  },
+  {
+    "id": "skin1004-tea-trica-b5-cream",
+    "brand": "SKIN1004",
+    "name": "Madagascar Centella Tea-Trica B5 Cream",
+    "nameKo": "마다가스카르 센텔라 티트리카 B5 크림",
+    "category": "Moisturizer",
+    "volume": "75ml",
+    "rating": 4.5,
+    "barcode": "8809913830047",
+    "image": "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-cream-tea-trica-b5-cream-1125798220.png?v=1738700592&width=600",
+    "colors": [
+      "#DCEBD9",
+      "#86B58A"
+    ],
+    "description": "A light gel-cream with tea tree, centella and panthenol (vitamin B5) for oily, blemish-prone skin.",
+    "ingredients": [
+      "Centella Asiatica Extract",
+      "Melaleuca Alternifolia (Tea Tree) Leaf Extract",
+      "Panthenol",
+      "Ceramide NP"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Light gel-cream with a fresh tea tree scent",
+      "Tube label printing is sharp, not faded",
+      "Tube crimp shows the batch and expiry"
+    ]
+  },
+  {
+    "id": "skin1004-probio-cica-cream",
+    "brand": "SKIN1004",
+    "name": "Madagascar Centella Probio-Cica Enrich Cream",
+    "nameKo": "마다가스카르 센텔라 프로바이오시카 인리치 크림",
+    "category": "Moisturizer",
+    "volume": "50ml",
+    "rating": 4.6,
+    "barcode": "8809576261769",
+    "image": "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-cream-probio-cica-enrich-cream-40032154747126.png?v=1709706716&width=600",
+    "colors": [
+      "#E8D6C2",
+      "#9E7A5A"
+    ],
+    "description": "A rich, firming cream with probiotics and centella for dry skin and early fine lines.",
+    "ingredients": [
+      "Centella Asiatica Extract",
+      "Lactobacillus Ferment",
+      "Ceramide NP",
+      "Adenosine"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Brown jar with an inner lid under the cap",
+      "Thick, rich cream with a faint scent",
+      "Batch and expiry are printed on the jar bottom"
     ]
   },
   {
@@ -259,18 +423,14 @@
     "nameKo": "다이브인 저분자 히알루론산 세럼",
     "category": "Serum",
     "volume": "50ml",
-    "price": {
-      "min": 13,
-      "max": 22
-    },
     "rating": 4.7,
-    "barcode": "8809740520000",
+    "barcode": "8809504741653",
     "image": "https://cdn.shopify.com/s/files/1/0920/1644/3758/files/DIVEINSerum1_631ac0e3-a77b-422a-a806-bf34477cac19.jpg?v=1753346213&width=600",
     "colors": [
-      "#D3EEFA",
-      "#4FB3E0"
+      "#D4E8F7",
+      "#6FA8D6"
     ],
-    "description": "Five types of low-molecular hyaluronic acid deliver deep, lasting hydration without stickiness.",
+    "description": "A watery serum with five types of hyaluronic acid that hydrates deeply without stickiness.",
     "ingredients": [
       "Sodium Hyaluronate",
       "Hydrolyzed Hyaluronic Acid",
@@ -278,42 +438,206 @@
       "Allantoin"
     ],
     "checks": [
-      "No added fragrance",
-      "Clear, watery serum with no stickiness",
-      "Dropper has the Torriden logo on the collar",
-      "Box has a hologram sticker"
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Clear, watery serum with almost no scent",
+      "Blue-tinted bottle with a white dropper",
+      "Batch and expiry are printed on the box bottom"
     ]
   },
   {
-    "id": "round-lab-dokdo-cleanser",
-    "brand": "ROUND LAB",
-    "name": "1025 Dokdo Cleanser",
-    "nameKo": "1025 독도 클렌저",
-    "category": "Cleanser",
-    "volume": "150ml",
-    "price": {
-      "min": 9,
-      "max": 15
-    },
-    "rating": 4.5,
-    "barcode": "8809582740000",
-    "image": "https://cdn.shopify.com/s/files/1/0651/7656/8022/files/Dokdo_cleanser_2025.png?v=1772851225&width=600",
+    "id": "medicube-pdrn-peptide-serum",
+    "brand": "Medicube",
+    "name": "PDRN Pink Peptide Serum",
+    "nameKo": "PDRN 핑크 펩타이드 세럼",
+    "category": "Serum",
+    "volume": "30ml",
+    "rating": 4.6,
+    "barcode": "8800289474989",
+    "image": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/PDRN_01_afffce45-a253-43cc-a113-3bbb60bd4c32.jpg?v=1724649392&width=600",
     "colors": [
-      "#D9E8F5",
-      "#5B8DB8"
+      "#F7D0D8",
+      "#E07D93"
     ],
-    "description": "A gentle, low-pH foam cleanser made with deep sea water from Ulleungdo that cleans without tightness.",
+    "description": "A pink glow serum with salmon PDRN and peptides that plumps and brightens tired skin.",
     "ingredients": [
-      "Sea Water",
+      "Sodium DNA (PDRN)",
+      "Palmitoyl Tripeptide-1",
+      "Niacinamide",
+      "Glycerin"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Light pink, slightly gel-like serum",
+      "Pink frosted bottle with a pink dropper bulb",
+      "Barcode starts with 8800, Medicube's own prefix"
+    ]
+  },
+  {
+    "id": "medicube-collagen-jelly-cream",
+    "brand": "Medicube",
+    "name": "Collagen Niacinamide Jelly Cream",
+    "nameKo": "콜라겐 나이아신아마이드 젤리 크림",
+    "category": "Moisturizer",
+    "volume": "50ml",
+    "rating": 4.5,
+    "barcode": "8800256112227",
+    "image": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/jelly50ml_th2_1.jpg?v=1766563329&width=600",
+    "colors": [
+      "#F9C9D2",
+      "#E58397"
+    ],
+    "description": "A bouncy pink jelly cream with collagen and niacinamide that hydrates and brightens.",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Niacinamide",
       "Glycerin",
-      "Betaine",
+      "Sodium Hyaluronate"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Pink, bouncy jelly that wobbles in the jar",
+      "Jar has a sealed inner film on first open",
+      "Batch and expiry are printed on the jar bottom"
+    ]
+  },
+  {
+    "id": "medicube-deep-vita-c-pad",
+    "brand": "Medicube",
+    "name": "Deep Vita C Pads",
+    "nameKo": "딥 비타 C 패드",
+    "category": "Toner pad",
+    "volume": "70 pads",
+    "rating": 4.5,
+    "barcode": "8800289474972",
+    "image": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/20607435fb2aafb1f5239ff229ed7137.png?v=1739338871&width=600",
+    "colors": [
+      "#F6DFA4",
+      "#D9A441"
+    ],
+    "description": "Pre-soaked toner pads with vitamin C and niacinamide that brighten dull skin and fade dark spots.",
+    "ingredients": [
+      "Ascorbyl Glucoside",
+      "Niacinamide",
+      "Citrus Junos Fruit Extract",
       "Panthenol"
     ],
     "checks": [
-      "Fresh, cool mint-like scent",
-      "Soft, dense white foam",
-      "Tube cap snaps shut firmly",
-      "Dokdo island illustration is printed clearly"
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "70 pads, evenly soaked, with a light citrus scent",
+      "Brown jar with a tweezer under the lid",
+      "Barcode starts with 8800, Medicube's own prefix"
+    ]
+  },
+  {
+    "id": "cosrx-hydrium-cleanser",
+    "brand": "COSRX",
+    "name": "Hydrium Triple Hyaluronic Moisturizing Cleanser",
+    "nameKo": "하이드리움 트리플 히알루로닉 모이스처라이징 클렌저",
+    "category": "Cleanser",
+    "volume": "150ml",
+    "rating": 4.5,
+    "barcode": "8809598451926",
+    "image": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/hydrium-triple-hyaluronic-moisturizing-cleanser-cosrx-official-1.jpg?v=1724836058&width=600",
+    "colors": [
+      "#DCEAF4",
+      "#86AFCF"
+    ],
+    "description": "A low-pH gel-cream cleanser with three hyaluronic acids that cleans without leaving skin tight.",
+    "ingredients": [
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Panthenol",
+      "Allantoin"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Light blue tube with the COSRX logo printed sharply",
+      "Soft gel-cream that lathers lightly",
+      "Tube crimp shows the batch and expiry"
+    ]
+  },
+  {
+    "id": "jumiso-snail-mucin-essence",
+    "brand": "Jumiso",
+    "name": "Snail Mucin 95% + Peptide Essence",
+    "nameKo": "달팽이 뮤신 95 펩타이드 에센스",
+    "category": "Essence",
+    "volume": "140ml",
+    "rating": 4.6,
+    "barcode": "8809655950898",
+    "image": "https://cdn.shopify.com/s/files/1/0418/3018/7169/files/SnailMucin95_PeptideFacialEssence140ml.jpg?v=1766451182&width=600",
+    "colors": [
+      "#EDEDED",
+      "#B9B9B9"
+    ],
+    "description": "A hydrating essence with 95% snail secretion filtrate and peptides that repairs and plumps dry skin.",
+    "ingredients": [
+      "Snail Secretion Filtrate",
+      "Palmitoyl Tripeptide-1",
+      "Sodium Hyaluronate",
+      "Panthenol"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Clear, stringy texture when lifted between fingers",
+      "Almost no scent",
+      "Batch and expiry are printed on the bottle base"
+    ]
+  },
+  {
+    "id": "laneige-lip-sleeping-mask",
+    "brand": "LANEIGE",
+    "name": "Lip Sleeping Mask",
+    "nameKo": "립 슬리핑 마스크",
+    "category": "Lip care",
+    "volume": "20g",
+    "rating": 4.7,
+    "barcode": "8809643053273",
+    "image": "https://cdn.shopify.com/s/files/1/0255/0189/2660/files/MAIN_01f7ac59-841d-40e0-82d7-c7848131ad22.jpg?v=1771426377&width=600",
+    "colors": [
+      "#F8C6B8",
+      "#E8785F"
+    ],
+    "description": "An overnight lip mask with berry extracts and vitamin C that softens dry, chapped lips by morning.",
+    "ingredients": [
+      "Diisostearyl Malate",
+      "Hydrogenated Polyisobutene",
+      "Rubus Idaeus (Raspberry) Fruit Extract",
+      "Ascorbic Acid"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Thick, balmy texture with a sweet fruity scent",
+      "Comes with a small silicone applicator in the lid",
+      "Batch and expiry are printed on the jar bottom"
+    ]
+  },
+  {
+    "id": "laneige-water-bank-cream",
+    "brand": "LANEIGE",
+    "name": "Water Bank Blue Hyaluronic Cream",
+    "nameKo": "워터뱅크 블루 히알루로닉 크림",
+    "category": "Moisturizer",
+    "volume": "20ml",
+    "rating": 4.6,
+    "barcode": "8809925136649",
+    "image": "https://cdn.shopify.com/s/files/1/0255/0189/2660/files/LN_WBCM_24AD_Product_02.jpg?v=1703778486&width=600",
+    "colors": [
+      "#CFE2F6",
+      "#6E9FD4"
+    ],
+    "description": "A moisturizer with blue hyaluronic acid that gives dry skin long-lasting, bouncy hydration.",
+    "ingredients": [
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Glycerin",
+      "Squalane"
+    ],
+    "checks": [
+      "Barcode starts with 880 (made in Korea) and matches the one printed on the box",
+      "Light blue jar with LANEIGE embossed cleanly on the lid",
+      "Smooth, light cream with a fresh scent",
+      "Batch and expiry are printed on the jar bottom"
     ]
   }
 ]

@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         // Clipping lets iOS draw this screen-wide border on the GPU; unclipped, RN rasterises it on the main thread.
         overflow: 'hidden',
-        borderColor: modules.BLACK_AL,
+        borderColor: modules.DARK_BLUE_LABEL,
     },
     guideBorder: {
         position: 'absolute',
